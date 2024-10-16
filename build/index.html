@@ -5,20 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pawfect Match</title>
-  <link href="../src/output.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
 
-<body class="min-h-screen">
-  <header>
-    logo
-    Pawfect Match
-    Adopt a Pet
-    Sucess Stories
-    Contacts
+<body class="min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-slate-50">
+  <header class="sticky top-0 z-10 bg-blue-950 text-slate-50">
+    <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <div class="flex items-stretch">
+        <a href="#hero">
+          <img src="./img/Logo.png" alt="Logo for Pawfect Match" class="size-20" />
+        </a>
+        <h1 class="text-3xl font-medium self-center"><a href="#hero">
+            Pawfect Match
+          </a></h1>
+      </div>
+      <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+        <a href="#adoption" class="hover:opacity-90">Adopt a Pet</a>
+        <a href="#sucessStories" class="hover:opacity-90">Sucess Stories</a>
+        <a href="#contacts" class="hover:opacity-90">Contacts Us</a>
+      </nav>
+    </section>
   </header>
   <main>
     <section id="hero">
-      video or logo
+      video or logos
       Text
       <button>View Pets for Adoption</button>
     </section>
