@@ -604,6 +604,10 @@ video {
   margin-top: -1.25rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -618,10 +622,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .block {
@@ -1379,13 +1379,13 @@ video {
 
 @media (min-aspect-ratio: 3/2) {
   .widescreen\:section-min-height {
-    min-height: calc(100vh - 68px);
+    min-height: calc(100vh - 112px);
   }
 }
 
 @media (max-aspect-ratio: 13/20) {
   .tallscreen\:section-min-height {
-    min-height: calc(100vh - 68px);
+    min-height: calc(100vh - 112px);
   }
 }
 
